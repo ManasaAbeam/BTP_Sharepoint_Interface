@@ -16,5 +16,5 @@ entity AttachmentFiles : cuid, managed {
     siteId    : String;
     driveId   : String;
     spPath    : String;
-    
+
 }
