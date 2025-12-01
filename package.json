@@ -8,9 +8,7 @@
     "@sap-cloud-sdk/resilience": "^4.1.2",
     "@sap/cds": "^9",
     "@sap/xssec": "^4.11.2",
-    "busboy": "^1.6.0",
-    "express": "^4",
-    "formidable": "^3.5.4"
+    "express": "^4"
   },
   "devDependencies": {
     "@cap-js/sqlite": "^2",
@@ -24,7 +22,6 @@
     "requires": {
       "connectivity": true,
       "destinations": true,
-      "xsuaa": "mocked",
       "db": {
         "kind": "hana"
       },
@@ -35,9 +32,9 @@
         }
       }
     },
-    "server":{
-      "body_parser":{
-        "limit":"50mb"
+    "server": {
+      "body_parser": {
+        "limit": "50mb"
       }
     }
   }

@@ -2,8 +2,6 @@ using {smu.attachments as db} from '../db/attachment-schema';
 
 service AttachmentService {
     entity AttachmentFiles as projection on db.AttachmentFiles;
-
-
     action   uploadFileToSharePoint(Reqno: String,
                                     Reqitem: String,
                                     Reqtype: String,
